@@ -1,0 +1,132 @@
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+header {
+  display: flex;
+  justify-content:space-between;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  justify-content:flex-start;
+  margin-left: 10px;
+}
+.logo img {
+  height: 50px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav span {
+  margin-right: 40px;
+
+}
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+#Mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+position: relative;
+
+}
+
+.mission-content {
+  width: 100%;
+  background-color: black;
+}
+
+#FeaturedTea {
+  width: 1000px;
+  position: relative;
+}
+.menu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.menu1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.menu2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+.menu-item {
+  display: flex;
+  flex-flow: column;
+
+}
+.menu-item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.menu-item span {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#Locations{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 1200px;
+  position: relative;
+}
+.heading {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.location-content {
+  display: flex;
+}
+.location {
+  width: 300px;
+  margin-top: 10px;
+  margin-right: 40px;
+  background-color: black;
+opacity: 1;
+}
+.contact {
+  height: 200px;
+  position: relative;
+}
+footer {
+  position: relative;
+}
+footer h5{
+  margin-left: 20px;
+  text-align: left;
+}
